@@ -78,7 +78,7 @@
 
 // console.log('next');
 
-const http = require('http');
+const http = require('http')
 
 const server = http.createServer((req,res)=>{
     if (req.url === '/') {
@@ -89,11 +89,11 @@ const server = http.createServer((req,res)=>{
     }
 
 res.end(`
-<h1> wrong page <h1>
+<h1>wrong page<h1>
 <a href="/">back home</a>
 `)
 })
-server.listen(5050)
+server.listen(8000)
 
 
 
