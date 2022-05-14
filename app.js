@@ -78,22 +78,23 @@
 
 // console.log('next');
 
-const http = require('http')
+// const http = require('http')
 
-const server = http.createServer((req,res)=>{
-    if (req.url === '/') {
-        res.end('welcome to our home page')
-    }
-    if (req.url === '/about') {
-        res.end("here a short history")
-    }
+// const server = http.createServer((req,res)=>{
+//     if (req.url === '/') {
+//         res.end('welcome to our home page')
+//     }
+//     if (req.url === '/about') {
+//         res.end("here a short history")
+//     }
 
-res.end(`
-<h1>wrong page<h1>
-<a href="/">back home</a>
-`)
-})
-server.listen(8000)
+// res.end(`
+// <h1>wrong page<h1>
+// <a href="/">back home</a>
+// `)
+// })
+// server.listen(8000)
 
+console.log("hello there");
 
 
